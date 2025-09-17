@@ -2,11 +2,8 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": ".",
-    "noEmit": false,
-  "module": "node16",
-  "moduleResolution": "node16"
+    "rootDir": "."
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["./**/*.ts", "./**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }
