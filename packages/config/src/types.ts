@@ -1,0 +1,17 @@
+export interface Env {
+  NEXT_PUBLIC_SUPABASE_URL: string;
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: string;
+  SUPABASE_SERVICE_ROLE_KEY: string;
+  DATABASE_URL: string;
+  NEXT_PUBLIC_WEBSITE_URL: string;
+  NEXT_PUBLIC_CAREER_KIT_URL: string;
+  NEXT_PUBLIC_TRADE_LINK_URL: string;
+  NEXT_PUBLIC_LEARNING_HUB_URL: string;
+  NEXT_PUBLIC_WORK_FLOW_URL: string;
+  NEXT_PUBLIC_CONNECT_URL: string;
+  NEXT_PUBLIC_HQ_WEB_URL: string;
+  NEXT_PUBLIC_API_URL: string;
+  NODE_ENV: 'development' | 'production' | 'test';
+  NEXT_PUBLIC_APP_NAME: string;
+  NEXT_PUBLIC_APP_VERSION: string;
+}

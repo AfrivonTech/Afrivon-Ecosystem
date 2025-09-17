@@ -1,0 +1,29 @@
+
+> @afrivon/connect@0.0.1 build C:\Users\davis\OneDrive\Documents\projects\afrivon tech\apps\connect
+> next build
+
+  ▲ Next.js 14.2.32
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    142 B          87.2 kB
+└ ○ /_not-found                          870 B          87.9 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/102-cc8290e9a622e80d.js       31.6 kB
+  ├ chunks/2fd790f8-2d535cc32bbb8129.js  53.6 kB
+  └ other shared chunks (total)          1.84 kB
+
+
+○  (Static)  prerendered as static content
+
